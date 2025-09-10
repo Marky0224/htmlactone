@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Background Controlled</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="m-0 p-0">
+
+  <nav class="navbar navbar-expand-lg fixed-top bg-warning bg-opacity-50 shadow-lg border-bottom border-warning-subtle rounded-bottom-4">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white fw-bold" href="#">Cupid's Cup</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-3">
+          <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#services">Menu</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        </ul>
+        <a href="login.html" class="btn btn-outline-light rounded-pill ms-2">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class="vh-100 d-flex justify-content-center align-items-center text-center text-white position-relative" 
+       style="background:url('https://static.vecteezy.com/system/resources/previews/011/332/525/non_2x/hand-drawn-coffee-concept-background-free-vector.jpg') center/cover fixed no-repeat;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+    <div class="position-relative">
+      <h1 class="fw-bold">Cupid's Cup</h1>
+      <p class="lead">Coffee is the new love language.</p>
+    </div>
+  </div>
+
+  <div id="about" class="vh-100 d-flex justify-content-center align-items-center text-center text-white position-relative" 
+       style="background:url('https://media.istockphoto.com/id/2167328245/vector/coffee-bean-pattern-on-dark-brown-background-design.jpg?s=612x612&w=0&k=20&c=vtOzSz2wRXbi8YdXFh8--A69GokccWJlV-3KzWXHYy4=') center/cover fixed no-repeat;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+    <div class="position-relative">
+      <h2 class="fw-bold">About</h2>
+      <p class="lead" style="max-width:600px;" >Cupid’s Cup is a romantic-themed coffee and dessert shop designed to bring people closer together. The shop offers handcrafted beverages, signature coffees, and sweet treats in a cozy, love-inspired atmosphere. With soft lighting, heart-themed décor, and personalized service, Cupid’s Cup is the perfect place for dates, friendly meetups, or solo coffee lovers looking for a warm, inviting space.</p>
+    </div>
+  </div>
+
+  <div id="services" class="vh-100 d-flex flex-column justify-content-center align-items-center text-center text-white position-relative" 
+       style="background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQphDAkO-ZPiFKK4fzyE25P5e7Y8q88BemQ8A&s') center/cover fixed no-repeat;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+    <div class="position-relative container">
+      <h2 class="fw-bold mb-4">Our Coffee Menu</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <div class="col">
+          <div class="card bg-light bg-opacity-25 border-0 h-100">
+            <img src="https://www.allrecipes.com/thmb/LgtetzzQWH3GMxFISSii84XEAB8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/258686-IcedCaramelMacchiato-ddmps-4x3-104704-2effb74f7d504b8aa5fbd52204d0e2e5.jpg" class="card-img-top rounded-top object-fit-cover" 
+                 alt="Caramel Macchiato" style="height:200px; object-fit:cover;">
+            <div class="card-body"><h5 class="card-title text-white">Caramel Macchiato</h5></div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-light bg-opacity-25 border-0 h-100">
+            <img src="https://mocktail.net/wp-content/uploads/2022/03/homemade-Iced-Americano-recipe_1ig.jpg" class="card-img-top rounded-top object-fit-cover" 
+                 alt="Americano" style="height:200px; object-fit:cover;">
+            <div class="card-body"><h5 class="card-title text-white">Americano</h5></div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-light bg-opacity-25 border-0 h-100">
+            <img src="https://www.allrecipes.com/thmb/Hqro0FNdnDEwDjrEoxhMfKdWfOY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21667-easy-iced-coffee-ddmfs-4x3-0093-7becf3932bd64ed7b594d46c02d0889f.jpg" class="card-img-top rounded-top object-fit-cover" 
+                 alt="Cappuccino" style="height:200px; object-fit:cover;">
+            <div class="card-body"><h5 class="card-title text-white">Cappuccino</h5></div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-light bg-opacity-25 border-0 h-100">
+            <img src="https://images.ctfassets.net/v601h1fyjgba/71VWCR6Oclk14tsdM9gTyM/6921cc6b21746f62846c99fa6a872c35/Iced_Latte.jpg" class="card-img-top rounded-top object-fit-cover" 
+                 alt="Latte" style="height:200px; object-fit:cover;">
+            <div class="card-body"><h5 class="card-title text-white">Latte</h5></div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-light bg-opacity-25 border-0 h-100">
+            <img src="https://vibrantlygfree.com/wp-content/uploads/2023/07/iced-mocha-1.jpg" class="card-img-top rounded-top object-fit-cover" 
+                 alt="Mocha" style="height:200px; object-fit:cover;">
+            <div class="card-body"><h5 class="card-title text-white">Mocha</h5></div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-light bg-opacity-25 border-0 h-100">
+            <img src="https://assets.bonappetit.com/photos/57bf31a34395c0582bb63157/master/pass/iced-espresso.jpg" class="card-img-top rounded-top object-fit-cover" 
+                 alt="Espresso" style="height:200px; object-fit:cover;">
+            <div class="card-body"><h5 class="card-title text-white">Espresso</h5></div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-light bg-opacity-25 border-0 h-100">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRXbhMpiwBirABqwD4-AmQcTUj-htKGTvtxg&s" class="card-img-top rounded-top object-fit-cover" 
+                 alt="Flat White" style="height:200px; object-fit:cover;">
+            <div class="card-body"><h5 class="card-title text-white">Flat White</h5></div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-light bg-opacity-25 border-0 h-100">
+            <img src="https://mywirsh.com/cdn/shop/articles/Spanish_Latte.jpg?v=1714830807" class="card-img-top rounded-top object-fit-cover" 
+                 alt="Spanish Latte" style="height:200px; object-fit:cover;">
+            <div class="card-body"><h5 class="card-title text-white">Spanish Latte</h5></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="vh-100 d-flex justify-content-center align-items-center text-center text-white position-relative" 
+       style="background:url('https://images.unsplash.com/photo-1509785307050-d4066910ec1e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D') center/cover fixed no-repeat;">
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+    <div class="position-relative">
+       <div class="position-relative container">
+      <h2 class="fw-bold mb-4">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <p class="lead mb-1"><strong>Address:</strong> 123 Coffee Street, Brewtown</p>
+          <p class="lead mb-1"><strong>Phone:</strong> (123) 456-7890</p>
+          <p class="lead mb-4"><strong>Email:</strong> info@mycoffee.com</p>
+          <div class="d-flex justify-content-center gap-3">
+            <a href="#contact" class="btn btn-outline-light btn-sm rounded-circle px-3">FB</a>
+            <a href="#contact" class="btn btn-outline-light btn-sm rounded-circle px-3">IG</a>
+            <a href="#contact" class="btn btn-outline-light btn-sm rounded-circle px-3">TW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
